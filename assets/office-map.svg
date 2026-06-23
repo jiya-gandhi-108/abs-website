@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Faridabad corporate office map illustration</title>
+  <desc id="desc">Stylized map card showing the ABS office location near NHPC Metro Station in Faridabad.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#ebe6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="520" rx="34" fill="url(#g)"/>
+  <path d="M0 132h960M0 286h960M192 0v520M438 0v520M708 0v520" stroke="#d7e5ef" stroke-width="4"/>
+  <path d="M62 414c104-92 184-112 300-74 153 50 257 27 381-114 42-48 84-73 153-80" fill="none" stroke="#4b3f91" stroke-width="28" stroke-linecap="round" opacity=".18"/>
+  <path d="M62 414c104-92 184-112 300-74 153 50 257 27 381-114 42-48 84-73 153-80" fill="none" stroke="#8f7df0" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="606" cy="274" r="68" fill="#fff"/>
+  <path d="M606 178c-59 0-106 47-106 106 0 82 106 170 106 170s106-88 106-170c0-59-47-106-106-106zm0 146a40 40 0 1 1 0-80 40 40 0 0 1 0 80z" fill="#4b3f91"/>
+  <rect x="62" y="62" width="318" height="118" rx="24" fill="#fff"/>
+  <text x="92" y="113" font-family="Poppins,Arial" font-size="28" font-weight="700" fill="#111827">ABS Corporate Office</text>
+  <text x="92" y="150" font-family="Inter,Arial" font-size="18" fill="#475569">SSR Corporate Park, Faridabad</text>
+</svg>

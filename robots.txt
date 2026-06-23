@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abs-bs.com/sitemap.xml
