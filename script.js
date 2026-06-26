@@ -14,7 +14,8 @@ document.querySelectorAll("[data-count]").forEach((item) => {
   const step = Math.max(1, Math.round(target / 60));
   const run = () => {
     current = Math.min(target, current + step);
-    item.textContent = current.toLocaleString("en-IN") + (item.dataset.suffix || "");
+    const formatted = item.hasAttribute("data-plain") ? String(current) : current.toLocaleString("en-IN");
+    item.textContent = formatted + (item.dataset.suffix || "");
     if (current < target) requestAnimationFrame(run);
   };
   run();
